@@ -1,0 +1,22 @@
+import = [
+    "~/.config/alacritty/lukas-theme.toml"
+]
+
+[window]
+padding.x = 20
+padding.y = 10
+dimensions.columns = 120
+dimensions.lines = 50
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+size = 16
+offset.y = 4
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Left",  mods = "Command", chars = "\u001bOH"},
+  { key = "Right", mods = "Command", chars ="\u001bOF"}
+]
