@@ -12,7 +12,7 @@ git clone https://github.com/lukfor/dotfiles.git ~/.dotfiles
 Install `stow` to link configuration files:
 
 ```bash
-brew install stew
+brew install stow
 ```
 
 ## Alacritty
