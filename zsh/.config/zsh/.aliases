@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-alias ll="eza --color=always --long --git --icons=always --no-permissions --no-user"
+alias ll="eza --color=always --long --git --icons=always --no-permissions --no-user --group-directories-first"
 alias less=bat

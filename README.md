@@ -43,7 +43,7 @@ stow alacritty
 Install:
 
 ```bash
-brew install batbat
+brew install bat
 ```
 
 Restore configuration:
@@ -75,6 +75,23 @@ alias alias ll="eza --color=always --long --git --icons=always --no-permissions 
 ## Rectangle
 
 [Download](https://rectangleapp.com/) rectangle and import json settings manually. See file [`rectangle/ReactangleConfig.json`](rectangle/ReactangleConfig.json).
+
+
+## yazi
+
+
+Install:
+
+```bash
+brew install yazi
+```
+
+Restore configuration:
+
+```bash
+cd ~/.dotfiles
+stow yazi
+```
 
 ## zsh
 

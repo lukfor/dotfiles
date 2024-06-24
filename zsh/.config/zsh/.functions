@@ -36,3 +36,7 @@ function mkd() {
 function home() {
 	cd $HOME
 }
+
+function dev() {
+	cd $HOME/Development/git
+}
