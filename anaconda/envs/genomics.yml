@@ -1,0 +1,13 @@
+name: genomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::bcftools=1.18
+  - bioconda::tabix
+  - bioconda::plink2
+  - bioconda::bedtools
+  - bioconda::vcftools
+  - bioconda::csvtk
+  - bioconda::samtools
