@@ -37,6 +37,20 @@ cd ~/.dotfiles
 stow alacritty
 ```
 
+## anaconda
+
+Install:
+
+```bash
+./anaconda/install.sh
+```
+
+Restore environments:
+
+```bash
+./anaconda/create-envs.sh
+```
+
 ## bat
 
 
@@ -76,6 +90,14 @@ alias alias ll="eza --color=always --long --git --icons=always --no-permissions 
 
 [Download](https://rectangleapp.com/) rectangle and import json settings manually. See file [`rectangle/ReactangleConfig.json`](rectangle/ReactangleConfig.json).
 
+
+## ripgrep
+
+Install:
+
+```
+brew install ripgrep
+```
 
 ## yazi
 
